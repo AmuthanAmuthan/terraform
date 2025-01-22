@@ -8,7 +8,7 @@ module "eks" {
   enable_irsa = true
 
   tags = {
-    cluster = "creation_through_terraform"
+    cluster = "creation_through_terraform1.0"
   }
 
   vpc_id = module.vpc.vpc_id
